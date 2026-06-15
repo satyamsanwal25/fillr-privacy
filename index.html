@@ -3,204 +3,102 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-<title>FILLR Privacy Policy</title>
-
+<title>FILLR — Privacy Policy</title>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Instrument+Serif:ital@0;1&display=swap" rel="stylesheet">
 <style>
-body{
-    font-family: Arial, sans-serif;
-    max-width: 900px;
-    margin: 0 auto;
-    padding: 40px 20px;
-    line-height: 1.8;
-    color: #333;
-    background:#fafafa;
-}
-
-.container{
-    background:white;
-    padding:40px;
-    border-radius:12px;
-    box-shadow:0 2px 12px rgba(0,0,0,0.08);
-}
-
-h1{
-    color:#6C2BD9;
-    margin-bottom:10px;
-}
-
-h2{
-    margin-top:35px;
-    color:#444;
-    border-bottom:1px solid #eee;
-    padding-bottom:8px;
-}
-
-.updated{
-    color:#777;
-    margin-bottom:30px;
-}
-
-ul{
-    padding-left:20px;
-}
-
-.footer{
-    margin-top:40px;
-    color:#666;
-    font-size:14px;
-}
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body {
+    font-family: 'Inter', -apple-system, sans-serif;
+    background: #0A0612; color: #F5F3FF; line-height: 1.7; padding: 48px 20px 80px;
+  }
+  .wrap { max-width: 720px; margin: 0 auto; }
+  .logo {
+    font-family: 'Instrument Serif', serif; font-style: italic; font-size: 34px;
+    background: linear-gradient(135deg, #7C3AED, #22D3EE);
+    -webkit-background-clip: text; -webkit-text-fill-color: transparent; background-clip: text;
+    margin-bottom: 6px;
+  }
+  .updated { color: rgba(245,243,255,0.4); font-size: 13px; margin-bottom: 36px; }
+  h1 { font-family: 'Instrument Serif', serif; font-style: italic; font-size: 32px; font-weight: 400; margin: 36px 0 14px; letter-spacing: -0.02em; }
+  h2 { font-size: 18px; font-weight: 700; margin: 30px 0 10px; }
+  p { color: rgba(245,243,255,0.78); margin-bottom: 14px; font-size: 15px; }
+  ul { margin: 0 0 16px 22px; color: rgba(245,243,255,0.78); font-size: 15px; }
+  li { margin-bottom: 8px; }
+  b { color: #fff; }
+  code { background: rgba(255,255,255,0.08); padding: 2px 6px; border-radius: 4px; font-size: 13px; }
+  .highlight {
+    background: linear-gradient(135deg, rgba(124,58,237,0.12), rgba(34,211,238,0.06));
+    border: 1px solid rgba(34,211,238,0.25);
+    border-radius: 14px; padding: 20px 22px; margin: 20px 0;
+  }
+  .highlight p { margin: 0; color: rgba(245,243,255,0.9); }
+  a { color: #22D3EE; }
+  .foot { margin-top: 48px; padding-top: 24px; border-top: 1px solid rgba(255,255,255,0.08); font-size: 13px; color: rgba(245,243,255,0.4); }
 </style>
 </head>
-
 <body>
+<div class="wrap">
+  <div class="logo">FILLR</div>
+  <div class="updated">Privacy Policy · Last updated: June 2026</div>
 
-<div class="container">
+  <div class="highlight">
+    <p><b>The short version:</b> FILLR stores everything on your own device. We don't run servers that hold your data. We don't track you. We don't sell anything. Your résumé, your answers, your profile — they live in your browser, and only your browser.</p>
+  </div>
 
-<h1>FILLR Privacy Policy</h1>
+  <div class="highlight" style="border-color:rgba(245,200,66,0.4)">
+    <p><b>Please note — FILLR is a helper, not a replacement for your judgement.</b> FILLR is not flawless and is bound to make mistakes. It may occasionally fill a field incorrectly, miss a field, or choose the wrong option. <b>Always review every form carefully and correct anything that looks off before you submit it.</b> You are responsible for the final content of any application you send.</p>
+  </div>
 
-<p class="updated">
-Last Updated: June 2026
-</p>
+  <h1>What FILLR is</h1>
+  <p>FILLR is a Chrome extension built to solve one specific, maddening problem: typing the same personal information into company career pages and application forms over and over again. It reads your résumé once, remembers your answers, and fills compatible forms for you. It's a helping hand — nothing more, nothing less.</p>
 
-<p>
-Thank you for using FILLR. Your privacy is important to us.
-This Privacy Policy explains what information FILLR may access, how that information is used, and the choices you have regarding your data.
-</p>
+  <h2>What we collect</h2>
+  <p><b>Nothing leaves your device because of us.</b> FILLR stores the following locally in your browser using Chrome's built-in <code>storage.local</code>:</p>
+  <ul>
+    <li>Your profile details (name, contact info, education, work history) — entered by you or parsed from a résumé you upload</li>
+    <li>Your résumé file content</li>
+    <li>Answers from forms you fill, so they can be reused on future forms ("memory")</li>
+    <li>Your settings and preferences</li>
+  </ul>
+  <p>All of this is stored <b>only on your computer</b>. We have no database, no cloud, no copy of your information.</p>
 
-<h2>About FILLR</h2>
+  <h2>AI features (optional)</h2>
+  <p>If you choose to enable AI mode, you provide your own API key (Google Gemini, OpenAI, or Anthropic). When AI mode is on, the relevant field labels and profile data are sent <b>directly from your browser to the AI provider you chose</b> — never through us. Your API key is stored locally and is never transmitted to FILLR. Please review the privacy policy of whichever AI provider you use.</p>
 
-<p>
-FILLR is a browser extension designed to help job seekers complete online job applications faster by automatically filling forms using information they provide, such as résumé details, profile information, and previously saved answers.
-</p>
+  <h2>What we don't do</h2>
+  <ul>
+    <li>We don't track your browsing activity</li>
+    <li>We don't use analytics or telemetry</li>
+    <li>We don't show ads</li>
+    <li>We don't sell, share, or transmit your data to anyone</li>
+    <li>We don't have a server that stores your personal information</li>
+  </ul>
 
-<h2>Information We Collect</h2>
+  <h2>Permissions we request, and why</h2>
+  <ul>
+    <li><b>storage</b> — to save your profile and answers locally on your device</li>
+    <li><b>activeTab / scripting</b> — to read and fill form fields on the page you're actively on, only when you trigger a fill</li>
+    <li><b>host access (broad)</b> — company career pages live across thousands of different domains, so FILLR needs permission to run on the pages where you ask it to fill a form. It only acts on form fields; it does not read or transmit page content elsewhere.</li>
+  </ul>
 
-<p>
-FILLR is designed to operate primarily on your device.
-Depending on how you use the extension, the following information may be stored locally in your browser:
-</p>
+  <h2>Payments &amp; refunds</h2>
+  <p>FILLR is free for up to 10 form fills per day and 10 lifetime applications. A one-time payment of ₹39 unlocks unlimited lifetime usage. Payments are processed securely via Razorpay (UPI &amp; QR). <b>All payments are final — there are no refunds.</b> Once the amount is paid, your unlimited access is unlocked.</p>
 
-<ul>
-<li>Name, email address, phone number, and other profile information you provide.</li>
-<li>Educational background and work experience details.</li>
-<li>Résumé information uploaded or processed by the extension.</li>
-<li>Answers you choose to save for future job applications.</li>
-<li>Extension settings and preferences.</li>
-</ul>
+  <h2>Deleting your data</h2>
+  <p>You're always in control. Open the FILLR dashboard → Settings → <b>Reset Everything</b> to permanently erase all stored data from your device instantly. Uninstalling the extension also removes all locally stored data.</p>
 
-<h2>How We Use Information</h2>
+  <h2>Children</h2>
+  <p>FILLR is intended for job seekers and is not directed at children under 13.</p>
 
-<p>
-The information stored by FILLR is used solely to:
-</p>
+  <h2>Changes to this policy</h2>
+  <p>If this policy changes, the updated version will be posted here with a new "last updated" date.</p>
 
-<ul>
-<li>Automatically fill compatible job application forms.</li>
-<li>Reduce repetitive manual data entry.</li>
-<li>Save your application preferences.</li>
-<li>Improve your experience while using the extension.</li>
-</ul>
+  <h2>Contact</h2>
+  <p>Questions about privacy? Reach out at <a href="mailto:YOUR-EMAIL@example.com">YOUR-EMAIL@example.com</a>.</p>
 
-<p>
-We do not use your information for advertising, marketing, or profiling purposes.
-</p>
-
-<h2>Local Storage of Data</h2>
-
-<p>
-FILLR stores user information locally within your browser using Chrome's storage capabilities. Data remains under your control and is not uploaded to our servers during normal use of the extension.
-</p>
-
-<h2>AI Features (Optional)</h2>
-
-<p>
-Certain optional features may allow you to connect third-party AI services such as Google Gemini, OpenAI, or Anthropic.
-</p>
-
-<p>
-When these features are used:
-</p>
-
-<ul>
-<li>You may provide your own API key.</li>
-<li>Relevant information is sent directly from your browser to the AI provider you select.</li>
-<li>FILLR does not store your API key on external servers.</li>
-<li>Use of those services is governed by the privacy policies and terms of the respective providers.</li>
-</ul>
-
-<h2>Permissions We Request</h2>
-
-<p>
-FILLR may request browser permissions that are necessary for its functionality, including:
-</p>
-
-<ul>
-<li>Access to browser storage for saving profile information and preferences.</li>
-<li>Access to web pages where users choose to fill forms.</li>
-<li>Scripting permissions required to identify and complete form fields.</li>
-</ul>
-
-<p>
-These permissions are used only for the features provided by the extension.
-</p>
-
-<h2>Information Sharing</h2>
-
-<p>
-FILLR does not sell, rent, trade, or share your personal information with third parties for marketing purposes.
-</p>
-
-<p>
-We do not maintain databases containing your personal information and do not operate advertising networks.
-</p>
-
-<h2>Data Security</h2>
-
-<p>
-We take reasonable measures to protect information stored by the extension. However, no software or internet-based service can guarantee absolute security. Users are encouraged to protect their devices and browser accounts using appropriate security practices.
-</p>
-
-<h2>Your Control Over Data</h2>
-
-<p>
-You remain in control of your information at all times.
-</p>
-
-<ul>
-<li>You may edit your profile information whenever you wish.</li>
-<li>You may remove saved answers and preferences.</li>
-<li>You may uninstall the extension at any time.</li>
-<li>You may reset the extension and delete locally stored data through the extension settings.</li>
-</ul>
-
-<h2>Children's Privacy</h2>
-
-<p>
-FILLR is intended for job seekers and is not directed toward children under the age of 13. We do not knowingly collect personal information from children.
-</p>
-
-<h2>Changes to This Privacy Policy</h2>
-
-<p>
-We may update this Privacy Policy from time to time to reflect product improvements, legal requirements, or operational changes. Any updates will be posted on this page together with a revised "Last Updated" date.
-</p>
-
-<h2>Contact Us</h2>
-
-<p>
-If you have any questions, concerns, or requests regarding this Privacy Policy or the FILLR extension, please contact:
-</p>
-
-<p>
-<strong>Email:</strong> satyam.sanwal@gmail.com
-</p>
-
-<div class="footer">
-FILLR — Helping job seekers spend less time filling forms and more time getting interviews.
+  <div class="foot">
+    FILLR — Made with love for job seekers who are tired of filling the same form twice.
+  </div>
 </div>
-
-</div>
-
 </body>
 </html>
